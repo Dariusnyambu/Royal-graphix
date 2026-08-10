@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Royal Graphix App Icon — 1024x1024 master source -->
+<!-- Use this SVG to generate all required Android icon sizes -->
+<!-- Tool: https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="200" fill="#050505"/>
+  <!-- Red accent bar -->
+  <rect x="0" y="800" width="1024" height="80" fill="#C8102E"/>
+  <!-- "RG" monogram -->
+  <text x="512" y="560"
+    font-family="Georgia, serif"
+    font-size="520"
+    font-weight="900"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="-20">RG</text>
+  <!-- Red dot accent -->
+  <circle cx="830" cy="220" r="60" fill="#C8102E"/>
+</svg>
