@@ -100,7 +100,7 @@ export const PROJECT_TYPES = [
 // Social Media Links
 // ─────────────────────────────────────────────────────────────
 export const SOCIAL_LINKS = {
-  tiktok:    'https://www.tiktok.com/@royal_graphix',
+  tiktok:    'https://www.tiktok.com/@royal.graphix8?lang=en',
   youtube:   'https://www.youtube.com/@royalgraphix93',
   instagram: 'https://www.instagram.com/royal_graphix93/?hl=en',
   facebook:  'https://www.facebook.com/profile.php?id=100064086038197',
