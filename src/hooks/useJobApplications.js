@@ -12,8 +12,8 @@ export function useJobApplications() {
     if (form.portfolio_url?.trim()) payload.portfolio_url = form.portfolio_url.trim()
     if (form.message?.trim()) payload.message = form.message.trim()
     try {
-      const { data, error: err } = await supabase.from('job_applications').insert(payload).select().single()
-      return { data, error: err }
+      const { error: err } = await supabase.from('job_applications').insert(payload)
+      return { data: null, error: err }
     } catch (e) { return { data: null, error: { message: e.message } } }
   }
 
